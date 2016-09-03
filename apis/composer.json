@@ -1,0 +1,14 @@
+{
+    "name": "SlimDemo",
+    "description": "SlimDemo",
+    "require": {
+        "php": ">=5.6.0",
+        "slim/slim": "^3.0"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "http://packagist.phpcomposer.com"
+        }
+    }
+}
