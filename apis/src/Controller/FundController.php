@@ -8,8 +8,6 @@ class FundController extends  ApiController
 {
     public function defaultAction()
     {
-
-        return $this->writeJson(array("error"=>1,"data"=>"数据为空"));
+        return $this->writeJson(array('error' => 1, 'data' => '数据为空'));
     }
-
 }

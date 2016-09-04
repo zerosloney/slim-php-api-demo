@@ -18,8 +18,8 @@ class Fund
 
     protected $deviationrate;
 
-    public  function __construct($code,$name,$value,$rate,$estimatevalue,$estimaterate,$deviationrate){
-
+    public function __construct($code, $name, $value, $rate, $estimatevalue, $estimaterate, $deviationrate)
+    {
         $this->fundcode = $code;
 
         $this->fundname = $name;
@@ -38,7 +38,8 @@ class Fund
         return $this->fundcode;
     }
 
-    public function getFundName(){
+    public function getFundName()
+    {
         return $this->fundname;
     }
 }

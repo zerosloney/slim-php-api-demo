@@ -1,4 +1,5 @@
 <?php
+
 namespace APISModel\Model;
 
 abstract class AbstractManager
